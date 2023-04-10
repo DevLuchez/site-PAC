@@ -1,0 +1,446 @@
+@charset "UTF-8";
+
+body {
+   margin: 0%;
+   padding: 0%;
+   font-family: 'Poppins', sans-serif;
+   font-size: 15px;
+   text-align: justify;
+   background-color: #e8fff9;
+   width: 100vw;
+}
+
+.logo {
+   display: flex;
+   justify-content: center;
+}
+
+.logoconc {
+   width: 50px;
+   margin-top: 1%;
+}
+
+#logoh {
+   background-color: #424242;
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+
+.logotitle {
+   font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: #72B5A4;
+   margin: 0%;
+   padding: 1%;
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+
+.nav {
+   width: 100vw;
+}
+
+.navlist {
+   background-color: #595757;
+   display: flex;
+   justify-content: space-between;
+   justify-content: space-around;
+   justify-content: space-evenly;
+   flex-direction: row;
+   align-items: flex-end;
+   align-items: baseline;
+   box-shadow: black 0px 5px 10px;
+   list-style: none;
+   display: flex;
+}
+
+.navint {
+   text-decoration: none;
+   font-family: 'Abel';
+   font-size: 22px;
+   font-weight: bold;
+   color: black;
+   display: block;
+   padding: 1rem;
+   position: relative;
+}
+
+.navint:hover {
+   color: #ffffff;
+}
+
+.navint::after {
+   content: '';
+   position: absolute;
+   bottom: 1rem;
+   left: 0;
+   width: 0;
+   height: 3px;
+   background: #F05156;
+   transition: all 300ms ease-in-out;
+   border-radius: 10px;
+   bottom: -0px;
+   transition: 0.3s;
+}
+
+.navint:hover::after {
+   width: 100%;
+   left: 0;
+}
+
+.navconc {
+   text-decoration: none;
+   font-family: 'Abel';
+   font-size: 22px;
+   font-weight: bold;
+   color: black;
+   display: block;
+   padding: 1rem;
+   position: relative;
+}
+
+.navconc:hover {
+   color: #ffffff;
+}
+
+.navconc::after {
+   content: '';
+   position: absolute;
+   bottom: 1rem;
+   left: 0;
+   width: 0;
+   height: 3px;
+   background: #F05156;
+   transition: all 300ms ease-in-out;
+   border-radius: 10px;
+   bottom: -0px;
+   transition: 0.3s;
+}
+
+.navconc:hover::after {
+   width: 100%;
+   left: 0;
+}
+
+.navprog {
+   text-decoration: none;
+   font-family: 'Abel';
+   font-size: 22px;
+   font-weight: bold;
+   color: black;
+   display: block;
+   padding: 1rem;
+   position: relative;
+}
+
+.navprog:hover {
+   color: #ffffff;
+}
+
+.navprog::after {
+   content: '';
+   position: absolute;
+   bottom: 1rem;
+   left: 0;
+   width: 0;
+   height: 3px;
+   background: #F05156;
+   transition: all 300ms ease-in-out;
+   border-radius: 10px;
+   bottom: -0px;
+   transition: 0.3s;
+}
+
+.navprog:hover::after {
+   width: 100%;
+   left: 0;
+}
+
+.navling{
+   text-decoration: none;
+   font-family: 'Abel';
+   font-size: 22px;
+   font-weight: bold;
+   color: black;
+   display: block;
+   padding: 1rem;
+   position: relative;
+}
+
+.navling:hover {
+   color: #ffffff;
+}
+
+.navling::after {
+   content: '';
+   position: absolute;
+   bottom: 1rem;
+   left: 0;
+   width: 0;
+   height: 3px;
+   background: #F05156;
+   transition: all 300ms ease-in-out;
+   border-radius: 10px;
+   bottom: -0px;
+   transition: 0.3s;
+}
+
+.navling:hover::after {
+   width: 100%;
+   left: 0;
+}
+
+.navref {
+   text-decoration: none;
+   font-family: 'Abel';
+   font-size: 22px;
+   font-weight: bold;
+   color: #ffffff;
+   display: block;
+   padding: 1rem;
+   position: relative;
+}
+
+.navref:hover {
+   color: #000000;
+}
+
+.navref::after {
+   content: '';
+   position: absolute;
+   bottom: 1rem;
+   left: 0;
+   width: 100%;
+   height: 3px;
+   background: #F05156;
+   transition: all 300ms ease-in-out;
+   border-radius: 10px;
+   bottom: -0px;
+   transition: 0.3s;
+}
+
+.navref:hover::after {
+   content: '';
+   position: absolute;
+   bottom: 1rem;
+   left: 0%;
+   width: 0%;
+   height: 3px;
+   background: #F05156;
+   transition: all 300ms ease-in-out;
+   border-radius: 10px;
+   bottom: -0px;
+   transition: 0.3s;
+}
+
+.naviconslist {
+   display: flex;
+   /* display: flex;
+   justify-content: flex-end;
+   justify-content: space-between;
+   justify-content: space-around;
+   justify-content: space-evenly; */
+}
+
+.yta {
+   text-decoration: none;
+   color: #000000;
+}
+
+.yta:hover {
+   color: #ff4141;
+}
+
+.yt {
+   padding-right: 55%;
+   scale: 1.5;
+   transition: 0.3s;
+}
+
+.yt:hover {
+   scale: 1.4;
+   transition: 0.3s;
+   transform: scale(1.4);
+}
+
+.instaa {
+   text-decoration: none;
+   color: #000000;
+}
+
+.instaa:hover {
+   color: #b637ff;
+}
+
+.insta {
+   padding-right: 45%;
+   scale: 1.5;
+   transition: 0.3s;
+}
+
+.insta:hover {
+   scale: 1.4;
+   transition: 0.3s;
+   transform: scale(1.4);
+}
+
+.linkedina {
+   text-decoration: none;
+   color: #000000;
+}
+
+.linkedina:hover {
+   color: #0378A6;
+}
+
+.linkedin {
+   scale: 1.5;
+   transition: 0.3s;
+}
+
+.linkedin:hover {
+   scale: 1.4;
+   transition: 0.3s;
+   transform: scale(1.4);
+}
+
+.concimg {
+   /* width: 100vw; */
+   width: 100vw;
+   height: 600px;
+   object-fit: cover;
+   object-position: top;
+}
+
+.imgarrow {
+   position: relative;
+}
+
+/*
+.yta {
+   text-decoration: none;
+   color: #000000;
+}
+
+.yt {
+   padding-right: 45%;
+   scale: 1.5;
+   transition: 0.3s;
+}
+
+.yt:hover {
+   color: #ff4141;
+   scale: 1.4;
+   transition: 0.3s;
+   transform: scale(1.4);
+} */
+
+.arrow {
+   position: absolute;
+   z-index: 5;
+   top: 40%;
+   width: 97%;
+   display: flex;
+   justify-content: space-between;
+   padding-left: 10px;
+}
+
+.larrow {
+   width: 35px;
+   transition: 0.3s;
+}
+
+
+.larrow:hover {
+   scale: 0.9;
+   transition: 0.3s;
+   transform: scale(1.4);
+}
+
+.rarrow {
+   width: 35px;
+   transition: 0.3s;
+}
+
+.rarrow:hover {
+   scale: 0.9;
+   transition: 0.3s;
+   transform: scale(1.4);
+}
+
+.balls {
+   display: flex;
+   justify-content: flex-end;
+   justify-content: space-between;
+   justify-content: space-around;
+   justify-content: space-evenly;
+}
+
+/*
+.concball {
+   color: #595757;
+}
+
+.progball {
+   color: #808080;
+}
+
+.lingball {
+   color: #808080;
+} */
+
+.pesqfonts {
+   /* text-indent: 7%; */
+   margin-top: 5%;
+   margin-bottom: 5%;
+   border: 5px solid #595757;
+   border-radius: 20px;
+   width: 800px;
+   padding: 35px;
+   padding-left: 50px;
+   box-shadow: #595757 4px 4px 15px;
+   background-color: #EBEBEB;
+}
+
+.protfonts {
+   /* text-indent: 7%; */
+   margin-top: 5%;
+   margin-bottom: 5%;
+   border: 5px solid #595757;
+   border-radius: 20px;
+   width: 800px;
+   padding: 35px;
+   padding-left: 50px;
+   box-shadow: #595757 4px 4px 15px;
+   background-color: #EBEBEB;
+}
+
+span:hover {
+   content: '';
+   left: 0%;
+   width: 0%;
+   background-color: #f16d71;
+   transition: all 300ms ease-in-out;
+   border-radius: 10px;
+   transition: 0.5s;
+   /* font-weight: bold;
+   color: #F05156; */
+}
+
+#concfooter {
+   font-size: 12px;
+   color: #ffff;
+   text-align: center;
+   background-color: #595757;
+   /* margin: auto; */
+   padding-top: 20px;
+   padding-bottom: 20px;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+}
+
+#concfooter:hover {
+   color: #72B5A4;
+}
